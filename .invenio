@@ -1,0 +1,37 @@
+[cli]
+flavour = RDM
+logfile = /logs/invenio-cli.log
+
+[cookiecutter]
+project_name = CODA Test
+project_shortname = coda-test
+project_site = coda.caltechlibrary.dev
+github_repo = caltechlibrary/inveniordm-coda-test
+description = CODA Test InvenioRDM Instance
+author_name = Tom Morrell
+author_email = tmorrell@caltech.edu
+year = 2022
+python_version = 3.8
+database = postgresql
+elasticsearch = 7
+file_storage = S3
+development_tools = yes
+_template = https://github.com/inveniosoftware/cookiecutter-invenio-rdm.git
+
+[files]
+invenio.cfg = 3840746c25a8018425723ca457a210b94d764251a2b3e5afd743243735592973
+templates = {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}
+docker-compose.full.yml = d3305a551d26d0a347643e0aca930ba1280f5f561ccc3e2009a71ffd93598be4
+assets = {'templates': {'search': {'.gitkeep': 'd4756cdf68d94c670c924f9d57d44718f666e457727701486435b57a97e52c5f'}}, 'less': {'theme.config': '6ac6cb587f64c190e0673254f76c1dd3b19d1a0bc948d21cae1523da30f37d1e', 'site': {'globals': {'site.overrides': '4e0fa3d2ff649e997718254c382498532fe225657d3e0c8fd2b7fe116663c034', 'site.variables': 'e168dee88a3a79816cc3dea83553da83cfc49432fdf0c9b219149713d6e1f21c'}}}}
+docker = {'pgadmin': {'servers.json': '49340a41438502cfb6e999031f936cdedc3ea5d4c35282b9ec0046fdb754332a'}, 'uwsgi': {'uwsgi_rest.ini': 'c36fc5021baf15f375b3b6c825f7753e5d166319c5fe38a85b604391ce5b37b6', 'uwsgi_ui.ini': 'c80168dc8d29086b876caab41b5057fddef46bdc748c5ecf213f684aa73cc90c'}, 'nginx': {'conf.d': {'default.conf': '9397770d56124ae53848e300bdf976d55653c47fbf8d47a7dc8c3ee2b830e6d5'}, 'test.crt': '31e3de20f235a186807c77b320ddd1248c6d59c4422a0c907ec5f4e91a0098be', 'Dockerfile': '541326766beaba2e8492255c99e11aa76640d71329ceab5bcab1c8d6a979bd5c', 'test.key': '3c064d554158c982a8f4d9bf98c3db7e199b277a29e05c4133adc52f01ab137a', 'nginx.conf': '6c9a6e372fc340dfcd3b49e6a30bd7bd36af41d79d1d093b7b3ba5f4c9d781b4'}}
+docker-compose.yml = fe999c3201380e715354172b4e0124ac4dfc668b94e1278c4ab27b7fba2cad86
+pipfile = 691ec790c66f6c41eb8088a5bb584ac0f70faa3f0d293ddb757b623866494804
+.dockerignore = 21241bc12cdf4ac5f209d6b191adc8f25eb89af93ce5c4c3f72c86661162d7b5
+.gitignore = af1182c70588e583daeb35809e6cdfe3408425d438c3ceb282b1f4b8360290e2
+dockerfile = 6ed7ddece5c52c1b75aa764cf38cfc3a0a4209e824ab66e9930f67012fb2e170
+data = {'default': {'.gitkeep': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}}
+app_data = {'vocabularies': {'affiliations_ror.yaml': '2e913fbecacd3694cba1b9a10739164911c2d45db3b32f1cb923027c48e0ac3e', 'subjects_oecd_fos.yaml': 'eef38714c506d956193c3be17e6004049525d252bf22424f4804dfc1ad46db44'}, 'vocabularies.yaml': '21218eeb7c8c08918e242d1ea8110328e37d7cd891ccc7ee142b6f4aba34ba08', 'README.md': 'd58978488626bdeddc791a15a39e341a4ed06f202b84d0c0d4aa9ef49481c6d9'}
+static = {'images': {'invenio-rdm.svg': '50f09b4d83244a69c58f44aa436a3fa097726d9b47fd0e0782ea92d31f854b65', 'logo-invenio-white.svg': '5af2c7b67a09798cba3d50cc2e811ca9fd2ff73b40d9d2a52a97237b9ed44008'}}
+readme.md = 384d09b259d4cc71dc5afc847f7c194ce90b2494b1dbc74e109cab4f685eb3a3
+docker-services.yml = 0abc34e7272d19510119750aabe2d4df66ab8b266c3f200d9ec86565fd7573b4
+
