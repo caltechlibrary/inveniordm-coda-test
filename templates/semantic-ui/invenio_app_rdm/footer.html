@@ -18,19 +18,10 @@
             {%- block footer_top_left %}
             <div class="ui row grid">
               <div class="rdm-footer">
-                <h4>{{_ ("About the Pilot")}}</h4>
-                {% trans invenio_rdm="http://inveniosoftware.org/products/rdm" %}
-                <p class="margin-small"><a href="{{invenio_rdm}}">Details</a></p>
-                {% endtrans %}
-                {% trans invenio_rdm_features="https://inveniosoftware.org/products/rdm/#features" %}
-                <p class="margin-small"><a href="{{invenio_rdm_features}}">FAQ</a></p>
-                {% endtrans %}
-              </div>
-              <div class="rdm-footer">
                   <h4><a href="https://library.caltech.edu">Caltech Library</a></h4>
-                <p class="margin-small"><a href="https://data.caltech.edu">CaltechDATA</a></p>
                 <p class="margin-small"><a href="https://authors.library.caltech.edu">CaltechAUTHORS</a></p>
-                <p class="margin-small"><a href="https://thesis.library.caltech.edu">CaltechTHESIS</a></p>
+		<p class="margin-small"><a href="https://thesis.library.caltech.edu">CaltechTHESIS</a></p>
+		<p class="margin-small"><a href="https://data.caltech.edu">CaltechDATA</a></p>
               </div>
             </div>
             {%- endblock footer_top_left %}
@@ -51,8 +42,6 @@
             {%- block footer_bottom_left %}
             {% trans invenio_rdm="http://inveniosoftware.org/products/rdm" %}Powered by <a
               href="{{invenio_rdm}}">InvenioRDM</a>{% endtrans %}
-               and the <a href="https://www.openstoragenetwork.org">Open
-                   Storage Network</a>  
           {%- endblock footer_bottom_left %}
           </div>
           <div class="eight wide column right aligned">
